@@ -1,0 +1,14 @@
+Sprite2D
+ParallaxLayer
+ParallaxBackground
+Parallax2D
+Node
+MarginContainer
+ColorRect
+Label
+TextureRect
+HBoxContainer
+CollisionShape2D
+Area2D
+Control
+VBoxContainer

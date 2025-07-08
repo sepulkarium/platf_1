@@ -1,0 +1,49 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1751985966
+icon.svg::CompressedTexture2D/CompressedTexture2D::757092490051774765::1751890187::1751890197::1::::<><><>0<>0<>c17364ebd0ff81f1a8304d1bab20affc<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://assets/::1751967144
+::res://assets/sprites/::1751980701
+Full-Sheet.png::CompressedTexture2D/CompressedTexture2D::961191203676278136::1573476440::1751951370::1::::<><><>0<>0<>a7505cb14406f8a733f7dde287359b98<>res://.godot/imported/Full-Sheet.png-127524fc40db7dc2524764a279e8e88d.ctex::
+Shot-Sheet.png::CompressedTexture2D/CompressedTexture2D::6726980423370331749::1751952293::1751952299::1::::<><><>0<>0<>467f45c73b6833c9b712c3774c8393a7<>res://.godot/imported/Shot-Sheet.png-371d8843a8dac6bd5a1fed6c77b4abef.ctex::
+::res://assets/sprites/Background/::1751983424
+Layer_0008_3.png::CompressedTexture2D/CompressedTexture2D::7108692244816592483::1487548092::1751983329::1::::<><><>0<>0<>1310505a5bbacd89883c5782ce801692<>res://.godot/imported/Layer_0008_3.png-92fdc243e3d5c242b71a88e330160f08.ctex::
+Layer_0009_2.png::CompressedTexture2D/CompressedTexture2D::5765320229079001855::1487548092::1751983424::1::::<><><>0<>0<>b6574210497e8955a6fa10c086fe4e18<>res://.godot/imported/Layer_0009_2.png-893d11d8a9167f781356029cf0d991f8.ctex::
+Layer_0011_0.png::CompressedTexture2D/CompressedTexture2D::4429745922726639124::1575073221::1751980781::1::::<><><>0<>0<>2601e644db29a7ba7aacb66c749b8b28<>res://.godot/imported/Layer_0011_0.png-951a4bde3d2de9e84dec25c94ef09981.ctex::
+::res://assets/sprites/Enemy/::1751953455
+ATTACK.png::CompressedTexture2D/CompressedTexture2D::234995973380339845::1714086799::1751953455::1::::<><><>0<>0<>d393c7c22a973c73946f5b05d3fbfcf4<>res://.godot/imported/ATTACK.png-fb90035ab90d96a1243a3512f80a90fe.ctex::
+DEATH.png::CompressedTexture2D/CompressedTexture2D::3764116690723257372::1714086799::1751953455::1::::<><><>0<>0<>5e958f7bad2bb49f62d259488f55375f<>res://.godot/imported/DEATH.png-4a260c2adca7b7cdc8c573828a58e7e1.ctex::
+FLYING.png::CompressedTexture2D/CompressedTexture2D::2893605195570536460::1714086799::1751953455::1::::<><><>0<>0<>a1f1121a455686d3be446b62aaf276ef<>res://.godot/imported/FLYING.png-e5a34090829bc196797f9aaa8f16d840.ctex::
+HURT.png::CompressedTexture2D/CompressedTexture2D::2479987874619264542::1714086799::1751953455::1::::<><><>0<>0<>5e55fa4c541be6e1567ca2cccd607b21<>res://.godot/imported/HURT.png-656f0e2a0a635af34b404264224255f4.ctex::
+IDLE.png::CompressedTexture2D/CompressedTexture2D::8881364814521624529::1714086799::1751953455::1::::<><><>0<>0<>7524bb6e939fbe4b5f7b39bed41e0135<>res://.godot/imported/IDLE.png-700d2c78c49a21ed527dfa7adea81492.ctex::
+::res://assets/sprites/UI/::1751969368
+1bit 16px icons part-2 outlines.png::CompressedTexture2D/CompressedTexture2D::2606318688977418909::1751969339::1751969368::1::::<><><>0<>0<>2774b699b82cd52f3f70bf223d2fe40d<>res://.godot/imported/1bit 16px icons part-2 outlines.png-ea0b52309b224abff151945bcd2665fe.ctex::
+::res://assets/tilesets/::1751950860
+TX Tileset Ground.png::CompressedTexture2D/CompressedTexture2D::4521039737043946127::1751892978::1751892978::1::::<><><>0<>0<>ba515ce444c5379a1b3a166f108a4ab2<>res://.godot/imported/TX Tileset Ground.png-69edad6afe80e902faea465c64f06265.ctex::
+::res://scenes/::1751950860
+::res://scenes/entities/::1751981640
+::res://scenes/entities/enemies/::1751985535
+enemy.tscn::PackedScene::7776912642067510710::1751985535::0::1::::<><><>0<>0<><>::uid://c1tmy848pphw::::res://scripts/entities/enemies/enemy.gd<>uid://dysg1sy7gt5of::::res://assets/sprites/Enemy/IDLE.png<>uid://dl3l431vc01n::::res://assets/sprites/Enemy/ATTACK.png<>uid://bhhxiwtb3cdnw::::res://assets/sprites/Enemy/FLYING.png<>uid://btvmpmprtls4s::::res://assets/sprites/Enemy/DEATH.png
+::res://scenes/entities/environment/::1751977482
+platform_1_type.tscn::PackedScene/PackedScene::4432807323761063060::1751977482::0::1::::<><><>0<>0<><>::uid://b5oa4mygbiuqp::::res://assets/tilesets/TX Tileset Ground.png
+::res://scenes/entities/player/::1751980122
+bullet.tscn::PackedScene/PackedScene::95694867841873743::1751977482::0::1::::<><><>0<>0<><>::uid://c64w73gfvue1q::::res://scripts/entities/player/bullet.gd<>uid://c23unc1fvqd4p::::res://assets/sprites/Shot-Sheet.png
+player.tscn::PackedScene::6702871461011184438::1751980122::0::1::::<><><>0<>0<><>::uid://nxuxctlteqno::::res://assets/sprites/Full-Sheet.png<>uid://bf81vujwf802m::::res://scripts/entities/player/player.gd
+::res://scenes/scene_handlers/::1751985836
+main.tscn::PackedScene::7053875767800622806::1751985836::0::1::::<><><>0<>0<><>::uid://b5oa4mygbiuqp::::res://assets/tilesets/TX Tileset Ground.png<>uid://b5gy6arl2sih1::::res://scripts/scene_handlers/main.gd<>uid://coe08nauklyix::::res://assets/sprites/Background/Layer_0009_2.png<>uid://c2q6kwueucdgo::::res://scenes/entities/player/player.tscn<>uid://b4fjxopyh6ta7::::res://scenes/entities/environment/platform_1_type.tscn<>uid://c8jref21vhenr::::res://assets/sprites/Background/Layer_0008_3.png<>uid://di2gu56yhj8fq::::res://scenes/entities/enemies/enemy.tscn<>uid://bykpq8uugcslx::::res://scenes/ui/hud.tscn<>uid://lccy7807k8bj::::res://scenes/ui/game_over.tscn
+::res://scenes/ui/::1751980122
+game_over.tscn::PackedScene/PackedScene::776372061470556127::1751977483::0::1::::<><><>0<>0<><>::uid://bo8hclyrvfpg8::::res://scripts/ui/game_over.gd
+hud.tscn::PackedScene::4092537801223920709::1751980122::0::1::::<><><>0<>0<><>::uid://bderxnl6jfow8::::res://assets/sprites/UI/1bit 16px icons part-2 outlines.png<>uid://cu7vkg6ab0nft::::res://scripts/ui/hud.gd
+::res://scripts/::1751950860
+::res://scripts/entities/::1751981645
+::res://scripts/entities/enemies/::1751985436
+enemy.gd::GDScript::195227874172323240::1751985436::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://scripts/entities/player/::1751981782
+bullet.gd::GDScript::7009956874457420708::1751981782::0::1::::<>Area2D<><>0<>0<><>::
+player.gd::GDScript::2807106576628996958::1751978959::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://scripts/globals/::1751973828
+global.gd::GDScript/GDScript::2025345476830958167::1751973828::0::1::::<>Node<><>0<>0<><>::
+::res://scripts/scene_handlers/::1751980207
+main.gd::GDScript::4505984853594140936::1751980207::0::1::::<>Node2D<><>0<>0<><>::
+::res://scripts/ui/::1751982491
+game_over.gd::GDScript::3437618166679539009::1751981753::0::1::::<>Control<><>0<>0<><>::
+hud.gd::GDScript::6243971606095279241::1751982491::0::1::::<>Control<><>0<>0<><>::
