@@ -1,0 +1,52 @@
+[gd_scene load_steps=5 format=3 uid="uid://bykpq8uugcslx"]
+
+[ext_resource type="Texture2D" uid="uid://bderxnl6jfow8" path="res://assets/sprites/UI/1bit 16px icons part-2 outlines.png" id="1_0mwgc"]
+[ext_resource type="Script" uid="uid://cu7vkg6ab0nft" path="res://scripts/ui/hud.gd" id="1_hqnrr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hqnrr"]
+atlas = ExtResource("1_0mwgc")
+region = Rect2(248, 128, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bo48s"]
+atlas = ExtResource("1_0mwgc")
+region = Rect2(272, 80, 16, 16)
+
+[node name="HUD" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+script = ExtResource("1_hqnrr")
+heart_texture = SubResource("AtlasTexture_hqnrr")
+
+[node name="HBC_HealthBar" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 216.0
+offset_bottom = 40.0
+
+[node name="TextureRect1" type="TextureRect" parent="HBC_HealthBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="TextureRect2" type="TextureRect" parent="HBC_HealthBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+texture = SubResource("AtlasTexture_bo48s")
+
+[node name="TextureRect3" type="TextureRect" parent="HBC_HealthBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+texture = SubResource("AtlasTexture_bo48s")
+
+[node name="TextureRect4" type="TextureRect" parent="HBC_HealthBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+texture = SubResource("AtlasTexture_bo48s")
+
+[node name="TextureRect5" type="TextureRect" parent="HBC_HealthBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+texture = SubResource("AtlasTexture_bo48s")

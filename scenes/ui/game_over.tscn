@@ -1,0 +1,71 @@
+[gd_scene load_steps=2 format=3 uid="uid://lccy7807k8bj"]
+
+[ext_resource type="Script" uid="uid://bo8hclyrvfpg8" path="res://scripts/ui/game_over.gd" id="1_60xr3"]
+
+[node name="GameOver" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_60xr3")
+
+[node name="Background" type="ColorRect" parent="."]
+modulate = Color(1, 1, 1, 0.6)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.190762, 0.190762, 0.190762, 1)
+
+[node name="HBC_GameOver" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Control1" type="Control" parent="HBC_GameOver"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="VBC_GameOver" type="VBoxContainer" parent="HBC_GameOver"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Control1" type="Control" parent="HBC_GameOver/VBC_GameOver"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Lb_GameOver" type="Label" parent="HBC_GameOver/VBC_GameOver"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+text = "Game Over"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Lb_KillScore" type="Label" parent="HBC_GameOver/VBC_GameOver"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+text = "Enemies killed: 0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Bt_Restart" type="Button" parent="HBC_GameOver/VBC_GameOver"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+text = "Restart"
+
+[node name="Control2" type="Control" parent="HBC_GameOver/VBC_GameOver"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Control2" type="Control" parent="HBC_GameOver"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[connection signal="pressed" from="HBC_GameOver/VBC_GameOver/Bt_Restart" to="." method="_on_bt_restart_pressed"]

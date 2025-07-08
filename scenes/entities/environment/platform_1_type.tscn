@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://b4fjxopyh6ta7"]
+
+[ext_resource type="Texture2D" uid="uid://b5oa4mygbiuqp" path="res://assets/tilesets/TX Tileset Ground.png" id="1_b6ouo"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_awin7"]
+size = Vector2(92, 30)
+
+[node name="Platform-1_Type" type="StaticBody2D"]
+
+[node name="Sp_Platform" type="Sprite2D" parent="."]
+texture = ExtResource("1_b6ouo")
+region_enabled = true
+region_rect = Rect2(0, 448, 96, 32)
+
+[node name="CS_Platform" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_awin7")
+one_way_collision = true
